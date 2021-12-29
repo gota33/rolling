@@ -13,7 +13,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github/gota33/rolling"
+	"github.com/gota33/rolling"
 )
 
 const (

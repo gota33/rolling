@@ -1,3 +1,3 @@
-module github/gota33/rolling
+module github.com/gota33/rolling
 
 go 1.17
