@@ -90,7 +90,7 @@ func (w *Writer) roll() (err error) {
 		}
 	}
 
-	if w.fd, err = os.OpenFile(path, os.O_CREATE|os.O_WRONLY, 0666); err != nil {
+	if w.fd, err = os.OpenFile(path, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0666); err != nil {
 		return
 	}
 
